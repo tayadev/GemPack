@@ -10,6 +10,11 @@ hash = "b814fff06b977987df71b2e0fd8a4f68439a88c5ec5dd843ad59638beabc2f3a"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "207458931062fe36d37c913163e4decf8296f6bb1f2f6a30e8750459489c129e"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "f6883dbacae2ced2bd6218b2ab1d7a438edbfe772cab9396c7fe2fecc43234d2"
 metafile = true
