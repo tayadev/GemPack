@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/deploy.yml"
-hash = "66439d1beb2696462257f44d326d481624837c610713d785481397696c028067"
+hash = "5d0e35d81e1b0e822199fba14eae1d114c9586f5b99613496be9bd02f06e0a77"
 
 [[files]]
 file = "README.md"
