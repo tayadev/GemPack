@@ -13,16 +13,27 @@ jobs:
     - name: Checkout repository content
       uses: actions/checkout@v3
 
-    - name: Set up Node.js (required for packwiz)
-      uses: actions/setup-node@v3
+    - name: Set up Go environment
+      uses: actions/setup-go@v4
       with:
-        node-version: '16'
+        go-version: '1.19'  # or newer
+    
+    - name: Cache Go modules
+      id: cache-go-mod
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/go/pkg/mod
+          ~/.cache/go-build
+        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-
 
     - name: Install packwiz
-      run: npm install -g packwiz
+      run: go install github.com/packwiz/packwiz@latest
 
     - name: Generate Packwiz Index
-      run: packwiz refresh
+      run: ~/go/bin/packwiz refresh
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
