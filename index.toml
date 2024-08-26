@@ -325,6 +325,11 @@ hash = "23abd9754da79fb9a4eb87ee4bf40780e01251cd1b8b2f5289918a6e92dd0e01"
 metafile = true
 
 [[files]]
+file = "mods/rubidium-extra.pw.toml"
+hash = "f28e1481c14143758e65c2ae472f644793228ef91f5fbc041909b4c25c3525c0"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "d68e429bf912389d640bfe66ad9b1317bb6cf5e304625cad4f1da8cd99df22c5"
 metafile = true
