@@ -330,6 +330,11 @@ hash = "4d0b66ba4cb3c2965bf961d4bb991babb6a60f8a20709d1e295ed7fc8b6d8929"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "7d413cabc64fa0cba2fbb9ddd88ed6efdb337fa8696df71a63bbb6e023befbee"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 hash = "5617c8fd648c8f6313f91db22fb4dcb62504e210b48f319b13325faa73b6e9d7"
 metafile = true
