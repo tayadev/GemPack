@@ -1,0 +1,21 @@
+{
+	id: "23A7571B67AA3BFD"
+	loot_crate: {
+		color: 16722032
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "test"
+		string_id: "test"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:oak_planks" }
+		{ item: "minecraft:stripped_spruce_log" }
+		{ item: "minecraft:crimson_planks" }
+	]
+	title: "Test"
+}
