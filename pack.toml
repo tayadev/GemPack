@@ -1,0 +1,13 @@
+name = "Gem Pack"
+author = "Taya Crystals"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c14bc7aa3198f274a5129c62a6d9b2c3dd41a90ca28d6a4b11d8ad6cc64c1292"
+
+[versions]
+forge = "47.3.7"
+minecraft = "1.20.1"
