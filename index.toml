@@ -240,6 +240,11 @@ hash = "6625e424713698763eb78672190c0662f5c301058a6339c6d165ea8e7461417b"
 metafile = true
 
 [[files]]
+file = "mods/libx.pw.toml"
+hash = "2c255a6aff5c016d8769777fd9e23f4bbc256d103fb45eef12b1d6af77249ba1"
+metafile = true
+
+[[files]]
 file = "mods/measurements.pw.toml"
 hash = "fdbb444431bcc96a17f21fee6f069985b257a19b718a639fdcc2d03fa137e932"
 metafile = true
@@ -312,6 +317,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "d68e429bf912389d640bfe66ad9b1317bb6cf5e304625cad4f1da8cd99df22c5"
+metafile = true
+
+[[files]]
+file = "mods/skyblock-builder.pw.toml"
+hash = "5e8a989a97ba1ebc9a59d72037f16fb0c9bddddc9f4da0f00cf1d3425ad53f3c"
 metafile = true
 
 [[files]]
