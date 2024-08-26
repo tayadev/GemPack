@@ -5,6 +5,9 @@ on:
     branches:
       - main  # or your default branch
 
+permissions:
+  contents: write  # Grants write permissions to the repository content
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
