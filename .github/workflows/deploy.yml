@@ -1,40 +1,32 @@
-name: Deploy to GitHub Pages
+name: Deploy pack.toml to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # or your default branch
 
 jobs:
-  build:
-    # Upload pack.toml as artifact
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-    
-    - name: upload pack.toml
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: pack.toml
-
   deploy:
-    needs: build
-    
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-
-    # Deploy to the github-pages environment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    # Specify runner + deployment step
     runs-on: ubuntu-latest
+
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+    - name: Checkout repository content
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js (required for packwiz)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install packwiz
+      run: npm install -g packwiz
+
+    - name: Generate Packwiz Index
+      run: packwiz refresh
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./  # Specify the directory to publish, "." or "./" to include everything
+        keep_files: true  # Optional: keeps existing files on the Pages site
