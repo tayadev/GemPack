@@ -353,3 +353,8 @@ metafile = true
 file = "mods/supplementaries.pw.toml"
 hash = "35ac53f97504b5d71b607335d8560d41d11b4adba0f93db1fa1204132661be56"
 metafile = true
+
+[[files]]
+file = "mods/yeetus-experimentus.pw.toml"
+hash = "5d9a0fbad5a23306da09dc524b698ad7fa00b27637a8bbbb4e11fca8c3700d36"
+metafile = true
