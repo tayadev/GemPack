@@ -330,6 +330,11 @@ hash = "4d0b66ba4cb3c2965bf961d4bb991babb6a60f8a20709d1e295ed7fc8b6d8929"
 metafile = true
 
 [[files]]
+file = "mods/ponder.pw.toml"
+hash = "b78deb8b1660a4289a28ab74b4e888737c842e60c1f3055d4c85a5dd83515748"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "7d413cabc64fa0cba2fbb9ddd88ed6efdb337fa8696df71a63bbb6e023befbee"
 metafile = true
