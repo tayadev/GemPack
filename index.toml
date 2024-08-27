@@ -15,6 +15,11 @@ hash = "e6a180ebb5b058ee15766422e6630b5aee7d10b3f33e4fd3ec8291b5d8e646b3"
 metafile = true
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "723eb1e1a42eb2fe8461d2b0ef73d8f5a37b723924a534fc054879e959aa28c7"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "6694b75c65ee2ba26b245c308305af529f5d4b5e3e3f7e9e37d48365707a7f32"
 metafile = true
@@ -95,6 +100,11 @@ hash = "d4512023e6eb03c5045365468de16cebe1aea7f14f6cb94902d72848f69c79ce"
 metafile = true
 
 [[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "1ba38e1558b064ee70588d7b61f7fe208b233af999b13c0cf03a11b628d05cb0"
+metafile = true
+
+[[files]]
 file = "mods/common-capabilities.pw.toml"
 hash = "b28ec8fda5b5e99c851efa5e33846547a0ba6284ea5ef19096723915c4fffd48"
 metafile = true
@@ -155,6 +165,11 @@ hash = "b814fff06b977987df71b2e0fd8a4f68439a88c5ec5dd843ad59638beabc2f3a"
 metafile = true
 
 [[files]]
+file = "mods/enderio.pw.toml"
+hash = "29a707cbf84e8664b243d07979bc0ae12e255374b06b2185d7e3bf1868851fb8"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "a368f30fd99c631618bec5508bc636d298c5ad099284d16cc0123f41c405e75e"
 metafile = true
@@ -212,6 +227,11 @@ metafile = true
 [[files]]
 file = "mods/ichunutil.pw.toml"
 hash = "1f480633dc1c22b9fd5924320b49fbe4645eebcb7fe21283b85b687c376efe0f"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "01c1739b0a62eaa9326444b58b56222ca8d66bf3ccb677e9ecfa54baa8c98a13"
 metafile = true
 
 [[files]]
@@ -280,6 +300,26 @@ hash = "fdbb444431bcc96a17f21fee6f069985b257a19b718a639fdcc2d03fa137e932"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-additions.pw.toml"
+hash = "6595e106065ed61341ffb94c3e7b9bed8d9b16e18addd2ced97e8da927456bf3"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "59fa9d1bd62cb752d909131e3560e5c15d20e35aa6847a6a6f39102ba03af6d7"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-tools.pw.toml"
+hash = "7b17c1a9f691d0e971b11db1d78ac25335fde38bea36fa43f6a8fbb72ccb2d84"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "fe59719a3c52224e8a02b13b8dfc70f9bfc6625beef19c6b353249eb53714f86"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "23007c9b06315a062ca923911d9fd89066946f6f52df31c06548fa8bc241b55c"
 metafile = true
@@ -327,6 +367,16 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "4d0b66ba4cb3c2965bf961d4bb991babb6a60f8a20709d1e295ed7fc8b6d8929"
+metafile = true
+
+[[files]]
+file = "mods/pipez.pw.toml"
+hash = "1193e637f80901dff66079c25cc7c413db9cc9e7f7d8c28e680dddaaff6cbd23"
+metafile = true
+
+[[files]]
+file = "mods/pneumaticcraft-repressurized.pw.toml"
+hash = "b54829557817fbbc39859615c829e0baa54951b5b2a1cb8828e5d2d626d99827"
 metafile = true
 
 [[files]]
@@ -407,6 +457,51 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "35ac53f97504b5d71b607335d8560d41d11b4adba0f93db1fa1204132661be56"
+metafile = true
+
+[[files]]
+file = "mods/thermal-cultivation.pw.toml"
+hash = "0ca6f7c7a736b318e4165e4954e8bd39b183c45965bd596c8f1a2f948f7222e9"
+metafile = true
+
+[[files]]
+file = "mods/thermal-dynamics.pw.toml"
+hash = "5077218f5a137152465214a9a35544a617902a50145055fd4bcee4121462c57b"
+metafile = true
+
+[[files]]
+file = "mods/thermal-endergy.pw.toml"
+hash = "465237d113d50af2b4e1a4f55be72a852112f4d2b494b5434d195ee93583919f"
+metafile = true
+
+[[files]]
+file = "mods/thermal-expansion.pw.toml"
+hash = "ea3ab41c8e1346c6b78afef0ba8a00b3409705b2eecae716883882f12956d90d"
+metafile = true
+
+[[files]]
+file = "mods/thermal-foundation.pw.toml"
+hash = "1fcb1bf91f4979cce47e56392cf9e3d30806bc0ff8aedc92b461272ecac8f8ca"
+metafile = true
+
+[[files]]
+file = "mods/thermal-innovation.pw.toml"
+hash = "46a13c3a5f47b1f55bb6d474d9986c75c0e25e60737f325d3699c63eca241c3b"
+metafile = true
+
+[[files]]
+file = "mods/thermal-integration.pw.toml"
+hash = "5bc578f409819105cd718ac6d13916d7984a2e4a110fe3a6585befa25d792077"
+metafile = true
+
+[[files]]
+file = "mods/thermal-locomotion.pw.toml"
+hash = "f585401f2abc481550e0cb27d4abf85e78fe99237ff4864126f171b17a884d9f"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "0b65cd1a439326b6a81f453773722893e4eef1c065859e7a0f2935952f6e9cb3"
 metafile = true
 
 [[files]]
