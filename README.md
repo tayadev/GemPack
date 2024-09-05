@@ -1,4 +1,5 @@
-# TBD
+# Build
 
-- Gauges and Switches Ported (not api accessible)
-- Immediately Fast
+```bash
+ luajit -lloader mpt.lua .\pack.lua C:\Users\taya\AppData\Roaming\PrismLauncher\instances\testinstance
+```
