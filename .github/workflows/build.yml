@@ -12,7 +12,9 @@ jobs:
       - run: git clone https://github.com/tayadev/modpacktool
       - run: cd modpacktool
       - run: bun install
+        working-directory: modpacktool
       - run: bun run mpt.ts ../pack.lua --output ../output
+        working-directory: modpacktool
       - uses: actions/upload-artifact@v2
         with:
           path: output
