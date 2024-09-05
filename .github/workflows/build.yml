@@ -9,7 +9,7 @@ jobs:
       # Download, install and run modpacktool from github tayadev/modpacktool with bun
       
       - uses: oven-sh/setup-bun@v2
-      - run: git clone github.com/tayadev/modpacktool
+      - run: git clone https://github.com/tayadev/modpacktool
       - run: cd modpacktool
       - run: bun install
       - run: bun run mpt.ts ../pack.lua --output ../output
